@@ -1,0 +1,170 @@
+/* body{
+    background-color: blueviolet;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100vh;
+
+}
+
+section {
+    text-align: center;
+    width: 100%;
+    height: 50%;
+}
+
+.mar-auto {
+    width: 100%;
+    height: 40%;
+}
+
+div#main-header {
+    width: 100%;
+    height: 25%;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4em;
+}
+
+input#todo_input {
+    width: 30%;
+    height: 30%;
+    border-radius: 7px;
+    border: none;
+    padding: 0px 10px;
+}
+button#add_todo_btn {
+    width: 6%;
+    height: 30%;
+    border-radius: 7px;
+    border: none;
+    padding: 0px 10px;
+    cursor: pointer;
+    background-color: grey;
+}
+
+
+
+
+div#todo_list_display {
+    height: 50%;
+    width: 35%;
+    text-align: center;
+    margin: auto;
+}
+div.todo-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 25%;
+}*/
+
+.sec-hide{
+    display: none;
+} 
+
+/* Reset default margin and padding for better consistency */
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply a nice background color and font family for the entire app */
+body {
+  background-color: #4c8e6f;
+  font-family: 'Lunasima', sans-serif;
+}
+
+/* Main header styles */
+.main-header {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+  padding: 20px 0;
+}
+
+/* Container for the input and add button */
+.mar-auto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+/* Input field styles */
+.todo-input {
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #333;
+  border-radius: 5px;
+  outline: none;
+}
+
+
+.B1 {
+  margin-left: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #333;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+.B1:hover {
+  background-color: #444;
+}
+
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 30%;
+  margin: auto;
+}
+.todo-item:hover {
+  background-color: #f9f9f9;
+}
+
+/* Styles for the edit and delete buttons */
+.edit-delete-btn {
+  display: flex;
+  gap: 10px;
+}
+
+.edit-btn,
+.delete-btn {
+  padding: 5px 10px;
+  font-size: 14px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.edit-btn {
+  background-color: #ff00ff;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+}
+
+/* Hide the edit input by default */
+.sec-hide {
+  display: none;
+}
+
+  
